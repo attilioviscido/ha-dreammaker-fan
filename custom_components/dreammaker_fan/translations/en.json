@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dream Maker Fan",
+        "description": "Avvia il server locale che intercetta i ventilatori Dream Maker (richiede il redirect DNS di cloud1.dm-maker.com verso questo host, vedi README).",
+        "data": {
+          "port": "Porta TCP (default 31270, non cambiarla a meno che tu non sappia cosa stai facendo)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "L'integrazione è già configurata.",
+      "single_instance_allowed": "È possibile configurare una sola istanza."
+    }
+  }
+}

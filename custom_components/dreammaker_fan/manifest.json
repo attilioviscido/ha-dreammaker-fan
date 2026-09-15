@@ -1,0 +1,12 @@
+{
+  "domain": "dreammaker_fan",
+  "name": "Dream Maker Fan",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/klada/dmiot2mqtt",
+  "issue_tracker": "https://github.com/klada/dmiot2mqtt/issues",
+  "codeowners": [],
+  "iot_class": "local_push",
+  "requirements": [],
+  "dependencies": []
+}
