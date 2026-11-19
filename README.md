@@ -2,7 +2,7 @@
 
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-custom__component-41BDF5?logo=home-assistant&logoColor=white)](https://www.home-assistant.io/)
 [![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 *Read this in [Italiano](#italiano) / Leggi in [Italiano](#italiano)*
 
@@ -46,7 +46,7 @@ Dream Maker Fan  --- TCP 31270 --->  Home Assistant (this integration)
 
 The only external requirement is the local DNS rewrite. Because the fan's firmware is hardcoded to connect to that hostname, DNS redirection is mandatory (unless reverse-engineering and flashing the ESP/WiFi module, which is undocumented and risky). This is a one-time network configuration on your router, Pi-hole, or AdGuard Home.
 
-The protocol ("dmiot") was reverse-engineered by the community in [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) (klada, GPLv3) and discussed on the [Home Assistant Community Forum](https://community.home-assistant.io/t/dreammaker-feel-fan-plus-dream-maker-dm-fan02-w/319885). This integration is an independent, clean-room native Home Assistant implementation based on protocol documentation.
+The protocol ("dmiot") was reverse-engineered by the community in [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) (klada, GPLv3) and discussed on the [Home Assistant Community Forum](https://community.home-assistant.io/t/dreammaker-feel-fan-plus-dream-maker-dm-fan02-w/319885). This integration is a native Home Assistant port derived from dmiot2mqtt, and is therefore distributed under the same GPLv3 license.
 
 ---
 
@@ -187,7 +187,9 @@ As soon as the fan connects and authenticates, the integration will automaticall
 
 ### License
 
-[MIT](LICENSE) — see the `LICENSE` file for details.
+Copyright (c) 2026 Attilio Viscido. Derived from [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) by klada.
+
+[GPL-3.0](LICENSE) — see the `LICENSE` file for details.
 
 ---
 ---
@@ -233,7 +235,7 @@ Ventilatore Dream Maker  --TCP 31270-->  Home Assistant (questa integrazione)
 
 L'unico requisito esterno a Home Assistant è il redirect DNS locale: il ventilatore è programmato per contattare solo quell'hostname, quindi il reindirizzamento è indispensabile (a meno di riflashare il modulo WiFi del ventilatore, operazione non documentata e rischiosa). È una configurazione da fare una tantum sul router o su Pi-hole/AdGuard Home.
 
-Il protocollo (soprannominato "dmiot" dalla community) è stato riverso-ingegnerizzato nel progetto [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) (klada, GPLv3) e nella discussione della [community Home Assistant](https://community.home-assistant.io/t/dreammaker-feel-fan-plus-dream-maker-dm-fan02-w/319885). Questa integrazione ne è un'implementazione nativa indipendente per Home Assistant (nessun codice riutilizzato direttamente, solo la documentazione del protocollo).
+Il protocollo (soprannominato "dmiot" dalla community) è stato riverso-ingegnerizzato nel progetto [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) (klada, GPLv3) e nella discussione della [community Home Assistant](https://community.home-assistant.io/t/dreammaker-feel-fan-plus-dream-maker-dm-fan02-w/319885). Questa integrazione è un porting nativo per Home Assistant derivato da dmiot2mqtt, ed è quindi distribuita sotto la stessa licenza GPLv3.
 
 ---
 
@@ -374,4 +376,6 @@ Non appena il ventilatore si autentica, l'integrazione scopre automaticamente il
 
 ### <a name="licenza-it"></a>Licenza
 
-Distribuito sotto licenza [MIT](LICENSE) — consulta il file `LICENSE` per maggiori dettagli.
+Copyright (c) 2026 Attilio Viscido. Derivato da [dmiot2mqtt](https://github.com/klada/dmiot2mqtt) di klada.
+
+Distribuito sotto licenza [GPL-3.0](LICENSE) — consulta il file `LICENSE` per maggiori dettagli.

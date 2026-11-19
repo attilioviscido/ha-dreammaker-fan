@@ -1,11 +1,11 @@
 {
   "domain": "dreammaker_fan",
   "name": "Dream Maker Fan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "config_flow": true,
-  "documentation": "https://github.com/klada/dmiot2mqtt",
-  "issue_tracker": "https://github.com/klada/dmiot2mqtt/issues",
-  "codeowners": [],
+  "documentation": "https://github.com/attilioviscido/ha-dreammaker-fan",
+  "issue_tracker": "https://github.com/attilioviscido/ha-dreammaker-fan/issues",
+  "codeowners": ["@attilioviscido"],
   "iot_class": "local_push",
   "requirements": [],
   "dependencies": []
