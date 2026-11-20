@@ -1,7 +1,7 @@
 {
   "domain": "dreammaker_fan",
   "name": "Dream Maker Fan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "config_flow": true,
   "documentation": "https://github.com/attilioviscido/ha-dreammaker-fan",
   "issue_tracker": "https://github.com/attilioviscido/ha-dreammaker-fan/issues",
